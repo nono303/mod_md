@@ -6,10 +6,8 @@
 - https://httpd.apache.org/docs/trunk/mod/mod_md.html  
 - https://www.apachelounge.com/viewtopic.php?t=7786  
 
-Nowadays, I'll only release MSVC15 x64  but do not hesitate to ask for x86 build...
-
 ----
-**V1.1.1 + mod_ssl patched for it**
+**V1.1.4 + mod_ssl patched for it**
 
 > - MSVC 15.5.2  
 > - Window Kit 10.0.16299.0    
