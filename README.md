@@ -1,4 +1,4 @@
-# apache httpd mod_md builds #
+# apache httpd mod_md windows builds #
 
 ----
 @see  
