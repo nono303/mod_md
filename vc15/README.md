@@ -5,12 +5,11 @@ If you want to build it from [httpd branch 2.4.x-mod_md](https://github.com/apac
 > - [curl 7.58](https://github.com/curl/curl)  
 > - [jansson 2.10 ](https://github.com/akheron/jansson)  
 
-2) Apply `CMakeLists.txt.patch` on src `/CMakeLists.txt`
+2) Apply [CMakeLists.txt.patch](https://github.com/nono303/mod_md/blob/master/vc15/CMakeLists.txt.patch) on src `/CMakeLists.txt`
 
 3) Link (or copy) from src `/server/mpm/winnt/mpm_winnt.h` to `/modules/md/mpm_winnt.h`   
   *(actually I don’t understand why adding it to other_installed_h in CMakeLists.txt doesn’t work...)*
 
-*
 4) Add `-DJANSSON_INCLUDE_DIR=/install/include` and `-DJANSSON_LIBRARIES=/install/lib/jansson.lib` to your cmake command line
 
 This is it!
