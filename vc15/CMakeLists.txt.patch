@@ -1,0 +1,81 @@
+@@ -26,6 +26,7 @@ FIND_PACKAGE(LibXml2)
+ FIND_PACKAGE(Lua51)
+ FIND_PACKAGE(OpenSSL)
+ FIND_PACKAGE(ZLIB)
++FIND_PACKAGE(CURL)
+ 
+ # Options for support libraries not supported by cmake-bundled FindFOO
+ 
+@@ -202,6 +203,7 @@ ENDIF()
+ MESSAGE(STATUS "")
+ MESSAGE(STATUS "Summary of feature detection:")
+ MESSAGE(STATUS "")
++MESSAGE(STATUS "CURL_FOUND ............... : ${CURL_FOUND}")
+ MESSAGE(STATUS "LIBXML2_FOUND ............ : ${LIBXML2_FOUND}")
+ MESSAGE(STATUS "LUA51_FOUND .............. : ${LUA51_FOUND}")
+ MESSAGE(STATUS "NGHTTP2_FOUND ............ : ${NGHTTP2_FOUND}")
+@@ -351,6 +353,7 @@ SET(MODULE_LIST
+   "modules/slotmem/mod_slotmem_plain+I+slotmem provider that uses plain memory"
+   "modules/slotmem/mod_slotmem_shm+I+slotmem provider that uses shared memory"
+   "modules/ssl/mod_ssl+i+SSL/TLS support"
++  "modules/md/mod_md+i+ certificate provisioning via the ACME protocol"
+   "modules/test/mod_dialup+O+rate limits static files to dialup modem speeds"
+   "modules/test/mod_optional_fn_export+O+example optional function exporter"
+   "modules/test/mod_optional_fn_import+O+example optional function importer"
+@@ -497,6 +500,21 @@ SET(mod_ssl_extra_sources
+   modules/ssl/ssl_util.c             modules/ssl/ssl_util_ocsp.c
+   modules/ssl/ssl_util_ssl.c         modules/ssl/ssl_util_stapling.c
+ )
++IF(CURL_FOUND)
++  SET(mod_md_extra_includes           "${CURL_INCLUDE_DIR};${OPENSSL_INCLUDE_DIR};${JANSSON_INCLUDE_DIR}")
++  SET(mod_md_extra_libs               "${CURL_LIBRARIES};${OPENSSL_LIBRARIES};${JANSSON_LIBRARIES}")
++ENDIF()
++SET(mod_md_extra_sources
++  modules/md/md_acme.c              modules/md/md_core.c   
++  modules/md/md_acme_acct.c	     modules/md/md_crypt.c  
++  modules/md/md_acme_authz.c        modules/md/md_curl.c   
++  modules/md/md_acme_drive.c        modules/md/md_http.c   
++  modules/md/md_json.c	             modules/md/md_store.c     
++  modules/md/md_jws.c	             modules/md/md_store_fs.c  
++  modules/md/md_log.c	             modules/md/md_util.c                     
++  modules/md/md_reg.c	             modules/md/mod_md.c        
++  modules/md/mod_md_config.c        modules/md/mod_md_os.c  
++)
+ SET(mod_status_extra_defines         STATUS_DECLARE_EXPORT)
+ SET(mod_watchdog_install_lib 1)
+ SET(mod_xml2enc_requires             LIBXML2_FOUND)
+@@ -651,6 +669,7 @@ SET(HTTPD_INCLUDE_DIRECTORIES
+   ${CMAKE_CURRENT_SOURCE_DIR}/modules/proxy
+   ${CMAKE_CURRENT_SOURCE_DIR}/modules/session
+   ${CMAKE_CURRENT_SOURCE_DIR}/modules/ssl
++  ${CMAKE_CURRENT_SOURCE_DIR}/modules/md
+   ${CMAKE_CURRENT_SOURCE_DIR}/server
+   ${APR_INCLUDE_DIR}
+   ${PCRE_INCLUDE_DIR}
+@@ -677,6 +696,7 @@ SET(other_installed_h
+   ${CMAKE_CURRENT_SOURCE_DIR}/modules/session/mod_session.h
+   ${CMAKE_CURRENT_SOURCE_DIR}/modules/ssl/mod_ssl.h
+   ${CMAKE_CURRENT_SOURCE_DIR}/modules/ssl/mod_ssl_openssl.h
++  ${CMAKE_CURRENT_SOURCE_DIR}/modules/md/mod_md.h
+ )
+ # When mod_serf is buildable, don't forget to copy modules/proxy/mod_serf.h
+ 
+@@ -846,12 +866,12 @@ ENDIF()
+ GET_PROPERTY(tmp_includes TARGET ab PROPERTY INCLUDE_DIRECTORIES)
+ 
+ # getting duplicate manifest error with ApacheMonitor
+-# ADD_EXECUTABLE(ApacheMonitor support/win32/ApacheMonitor.c support/win32/ApacheMonitor.rc)
+-# SET(install_targets ${install_targets} ApacheMonitor)
+-# SET(install_bin_pdb ${install_bin_pdb} $<TARGET_PDB_FILE:ApacheMonitor>)
+-# SET_TARGET_PROPERTIES(ApacheMonitor PROPERTIES WIN32_EXECUTABLE TRUE)
+-# SET_TARGET_PROPERTIES(ApacheMonitor PROPERTIES COMPILE_FLAGS "-DAPP_FILE -DLONG_NAME=ApacheMonitor -DBIN_NAME=ApacheMonitor.exe ${EXTRA_COMPILE_FLAGS}")
+-# TARGET_LINK_LIBRARIES(ApacheMonitor ${EXTRA_LIBS} ${HTTPD_SYSTEM_LIBS} comctl32 wtsapi32)
++ADD_EXECUTABLE(ApacheMonitor support/win32/ApacheMonitor.c support/win32/ApacheMonitor.rc)
++SET(install_targets ${install_targets} ApacheMonitor)
++SET(install_bin_pdb ${install_bin_pdb} $<TARGET_PDB_FILE:ApacheMonitor>)
++SET_TARGET_PROPERTIES(ApacheMonitor PROPERTIES WIN32_EXECUTABLE TRUE)
++SET_TARGET_PROPERTIES(ApacheMonitor PROPERTIES COMPILE_FLAGS "-DAPP_FILE -DLONG_NAME=ApacheMonitor -DBIN_NAME=ApacheMonitor.exe ${EXTRA_COMPILE_FLAGS}")
++TARGET_LINK_LIBRARIES(ApacheMonitor ${EXTRA_LIBS} ${HTTPD_SYSTEM_LIBS} comctl32 wtsapi32)
+ 
+ ###########  CONFIGURATION FILES ###########
+ # Set up variables used in the .conf file templates
