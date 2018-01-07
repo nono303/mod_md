@@ -7,7 +7,8 @@
 - https://www.apachelounge.com/viewtopic.php?t=7786  
 
 ----
-**V1.1.7 + [mod_ssl patched](https://github.com/icing/mod_md/blob/master/patches/mod_ssl_md-2.4.x-v5.diff) for it**
+**V1.1.8 + [mod_ssl patched](https://github.com/icing/mod_md/blob/master/patches/mod_ssl_md-2.4.x-v5.diff) for it**
+Older version available on tags
 
 [changelog](https://raw.githubusercontent.com/icing/mod_md/master/ChangeLog)
 
