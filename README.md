@@ -6,7 +6,7 @@
 - https://httpd.apache.org/docs/trunk/mod/mod_md.html  
 
 ----
-**V1.1.13-git + mod_ssl from httpd 2.4.33**  
+**V1.1.14-git + mod_ssl from httpd 2.4.33**  
 2018-06-30 
  - curl 7.60 build dep compiled with Winssl to avoid issue [#14](https://github.com/icing/mod_md/issues/14)  
     ```Enabled features: WinSSL libz AsynchDNS SSPI SPNEGO Kerberos NTLM  ```  
