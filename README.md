@@ -16,11 +16,7 @@
 
 > - MSVC 15.9.2 / 19.16.27024.1
 > - Window Kit 10.0.17134.0
-<<<<<<< HEAD
 > - **[AVX](https://msdn.microsoft.com/fr-fr/library/jj620901.aspx) build** __only for _avx directoy builds__
-=======
-> - **[AVX](https://msdn.microsoft.com/fr-fr/library/jj620901.aspx) build**
->>>>>>> c7eae2119e67c4f302fd79c0405d21a6251f7c73
     
 > - [Openssl 1.1.1a ](https://github.com/openssl/openssl/tree/OpenSSL_1_1_1a)  
 > - [curl 7.62.0](https://github.com/curl/curl/tree/curl-7_62_0)  
