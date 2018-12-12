@@ -5,7 +5,12 @@
 - https://httpd.apache.org/docs/trunk/mod/mod_md.html  
 
 ----
-**V1.1.17-git + mod_ssl from httpd 2.4.37**   
+**V1.1.17-git + mod_ssl from httpd 2.4.37**  
+
+> 2018-12-12 **IMPORTANT NOTE**
+openssl dll **MUST be named libcrypto-1_1.dll and libssl-1_1.dll** in httpd /bin directory even for x64 (normally named libcrypto-1_1-x64.dll and libssl-1_1-x64.dll   
+I will try to fix it ASAP *(see #3)*
+
 
 2018-11-27 
  - pdb for so & dll
