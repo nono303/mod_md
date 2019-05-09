@@ -3,12 +3,8 @@
 - https://httpd.apache.org/docs/trunk/mod/mod_md.html
 
 ----
-## Version [1.99.8](https://github.com/icing/mod_md/tree/v1.1.19)** + mod_ssl [patched](https://github.com/icing/mod_md/blob/master/patches/mod_ssl_md2-2.4.x.diff) from httpd tag [2.4.39](https://github.com/apache/httpd/tree/2.4.39)   
+## Version [1.99.8](https://github.com/icing/mod_md/tree/v1.1.19) + mod_ssl [patched](https://github.com/icing/mod_md/blob/master/patches/mod_ssl_md2-2.4.x.diff) from httpd tag [2.4.39](https://github.com/apache/httpd/tree/2.4.39)   
 > 
-> 2019-03-22   **VC15**
-- MSVC 15.9.9 / 19.16.27027.1
-- Window Kit 10.0.17763.0
->
 > 2019-05-09 **VS16**
 - MSVC 16.1.0 preview 3.0 / 14.21.27619.1
 - Window Kit 10.0.18362.0  
