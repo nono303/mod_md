@@ -3,12 +3,12 @@
 - https://httpd.apache.org/docs/trunk/mod/mod_md.html
 
 ----
-## Version [2.0.6](https://github.com/icing/mod_md/tree/v2.0.6) + mod_ssl [patched](https://github.com/icing/mod_md/blob/master/patches/mod_ssl_md2-2.4.x.diff) from httpd tag [2.4.39](https://github.com/apache/httpd/tree/2.4.39)   
+## Version [2.0.7](https://github.com/icing/mod_md/tree/v2.0.7) + mod_ssl [patched](https://github.com/icing/mod_md/blob/master/patches/mod_ssl_md2-2.4.x.diff) from httpd tag [2.4.39](https://github.com/apache/httpd/tree/2.4.39)   
 > 
-> 2019-06-25
+> 2019-07-10
 - Visual Studio 2019 v16.1.3
-- VS16 : toolset 14.21.27702.2
-- VC15 : toolset 14.16.27027.1
+- VS16 : toolset 14.21.27702
+- VC15 : toolset 14.16.27023
 - Window Kit 10.0.18362.0  
 ----
 - **[AVX](https://msdn.microsoft.com/fr-fr/library/jj620901.aspx) releases** __for specified directory__
