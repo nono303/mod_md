@@ -3,10 +3,10 @@
 - https://httpd.apache.org/docs/trunk/mod/mod_md.html
 
 ----
-## Version [2.1.8](https://github.com/icing/mod_md/tree/v2.1.8)
+## Version [2.1.9](https://github.com/icing/mod_md/tree/v2.1.9)
 > 
-> 2019-10-02
-- Visual Studio 2019 v16.3.2
+> 2019-10-10
+- Visual Studio 2019 v16.3.3
 - VS16 : toolset 14.23.28105
 - VC15 : toolset 14.16.27023
 - Window Kit 10.0.18362.0  
