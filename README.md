@@ -3,10 +3,10 @@
 - https://httpd.apache.org/docs/trunk/mod/mod_md.html
 
 ----
-## Version [2.2.3](https://github.com/icing/mod_md/tree/v2.2.3)
+## Version [2.2.4](https://github.com/icing/mod_md/tree/v2.2.4)
 > 
 > 2019-11-05
-- Visual Studio 2019 v16.3.7
+- Visual Studio 2019 v16.3.9
 - VS16 : toolset 14.23.28105
 - VC15 : toolset 14.16.27023
 - Window Kit 10.0.18362.0  
@@ -18,5 +18,5 @@
 *All dependencies are built from sources in the same context*
  - [httpd 2.4.41](https://github.com/apache/httpd/tree/2.4.41)   
  - [openssl 1.1.1d](https://github.com/openssl/openssl/tree/OpenSSL_1_1_1d)
- - [curl 7.67.0-DEV](https://github.com/curl/curl)  
+ - [curl 7.67.0](https://github.com/curl/curl/tree/curl-7_67_0)  
  - [jansson 2.12](https://github.com/akheron/jansson/tree/v2.12)
