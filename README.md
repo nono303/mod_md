@@ -10,8 +10,8 @@
 - Window Kit 10.0.19041.0
 - **[AVX](https://msdn.microsoft.com/fr-fr/library/jj620901.aspx) releases** __for specified directory__
 
-### Version [2.3.5](https://github.com/icing/mod_md/tree/v2.3.5)
-> 2021-01-12
+### Version [2.3.6](https://github.com/icing/mod_md/tree/v2.3.5)
+> 2021-01-20
 
 **Build Scripts** 
 
