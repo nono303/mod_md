@@ -2,8 +2,8 @@
 - https://github.com/icing/mod_md
 
 ----
-### Version [2.4.6](https://github.com/icing/mod_md/tree/v2.4.6)
-> 2021-09-15 - commit
+### Version [2.4.7](https://github.com/icing/mod_md/tree/v2.4.7)
+> 2021-09-17 - commit
 >
 > 2021-09-28 - build
 
