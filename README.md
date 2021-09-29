@@ -2,10 +2,10 @@
 - https://github.com/icing/mod_md
 
 ----
-### Version [2.4.7](https://github.com/icing/mod_md/tree/v2.4.7)
-> 2021-09-17 - commit
+### Version [2.4.5](https://github.com/icing/mod_md/tree/v2.4.5)
+> 2021-09-01 - commit
 >
-> 2021-09-28 - build
+> 2021-09-29 - build
 
 - **VS17**: toolset 14.30.30528
 - **VS16**: toolset 14.29.30132
@@ -25,7 +25,7 @@
 
  - [httpd 2.4.49](https://github.com/apache/httpd/tree/2.4.49)   
  - [jansson 2.14](https://github.com/akheron/jansson/tree/v2.14)
- - [openssl 3.0.0](openssl-3.0.0)
+ - [openssl 1.1.1l](https://github.com/openssl/openssl/tree/OpenSSL_1_1_1l)
 
 **Runtime Dependencies**
 
