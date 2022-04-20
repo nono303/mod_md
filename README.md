@@ -2,12 +2,12 @@
 - https://github.com/icing/mod_md
 
 ----
-### Version [2.4.11](https://github.com/icing/mod_md/tree/v2.4.11) 
-> 2022-02-14 - commit
+### Version [2.4.12](https://github.com/icing/mod_md/tree/v2.4.12) 
+> 2022-04-19 - commit
 >
-> 2022-02-14 - build
+> 2022-04-20 - build
 
-- **VS17** toolset: 14.31.31103
+- **VS17** toolset: 14.31.31326
 - **VS16** toolset: 14.29.30133
 - **VC15** toolset: 14.16.27023
 - MSVC redist:  [x86](https://aka.ms/vs/16/release/vc_redist.x86.exe) - [x64](https://aka.ms/vs/16/release/vc_redist.x64.exe)
@@ -23,11 +23,11 @@
 **Build Dependencies**  
 *All dependencies are built from sources in the same context*
 
- - [httpd 2.4.52](https://github.com/apache/httpd/tree/2.4.52)
+ - [httpd 2.4.53](https://github.com/apache/httpd/tree/2.4.53)
  - [jansson 2.14](https://github.com/akheron/jansson/tree/v2.14)
 
 **Runtime Dependencies**
 
-- [openssl 3.0.1](https://github.com/openssl/openssl/tree/openssl-3.0.1) :warning: 
-- [curl 7.81.0](https://github.com/curl/curl/tree/curl-7_81_0) :arrow_right: patched for [openssl backend](https://www.apachelounge.com/viewtopic.php?t=8627) - *Thx @**tangent***
+- [openssl 3.0.2](https://github.com/openssl/openssl/tree/openssl-3.0.2) :warning: 
+- [curl 7.82.0](https://github.com/curl/curl/tree/curl-7_82_0) :arrow_right: patched for [openssl backend](https://www.apachelounge.com/viewtopic.php?t=8627) - *Thx @**tangent***
 
