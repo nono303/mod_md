@@ -2,10 +2,10 @@
 - https://github.com/icing/mod_md
 
 ----
-### Version [2.4.13](https://github.com/icing/mod_md/tree/v2.4.13) 
-> 2022-04-23 - commit
+### Version [2.4.14](https://github.com/icing/mod_md/tree/v2.4.14) 
+> 2022-04-26 - commit
 >
-> 2022-04-24 - build
+> 2022-04-27 - build
 
 - **VS17** toolset: 14.31.31326
 - **VS16** toolset: 14.29.30133
@@ -29,5 +29,5 @@
 **Runtime Dependencies**
 
 - [openssl 3.0.2](https://github.com/openssl/openssl/tree/openssl-3.0.2) :warning: 
-- [curl 7.82.0](https://github.com/curl/curl/tree/curl-7_82_0) :arrow_right: patched for [openssl backend](https://www.apachelounge.com/viewtopic.php?t=8627) - *Thx @**tangent***
+- [curl 7.83.0](https://github.com/curl/curl/tree/curl-7_83_0) :arrow_right: patched for [openssl backend](https://www.apachelounge.com/viewtopic.php?t=8627) - *Thx @**tangent***
 
