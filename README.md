@@ -14,6 +14,8 @@
 - Window Kit: 10.0.22000.0
 - **[AVX](https://msdn.microsoft.com/fr-fr/library/jj620901.aspx) releases** _in specified directory_
 
+[**How to get the good version**](https://github.com/nono303/PHP-memcache-dll#how-to-get-the-good-version)
+
 **Build Scripts** 
 
 - [@nono303/win-build-scripts](https://github.com/nono303/win-build-scripts)
