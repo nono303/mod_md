@@ -2,12 +2,12 @@
 - https://github.com/icing/mod_md
 
 ----
-### Version [2.4.18](https://github.com/icing/mod_md/tree/v2.4.18) 
-> 2022-07-15 - commit
+### Version [2.4.19](https://github.com/icing/mod_md/tree/v2.4.19) 
+> 2022-08-25 - commit
 >
-> 2022-07-17 - build
+> 2022-09-20 - build
 
-- **VS17** toolset: 14.33.31627
+- **VS17** toolset: 14.34.31823
 - **VS16** toolset: 14.29.30133
 - **VC15** toolset: 14.16.27023
 - MSVC redist:  [x86](https://aka.ms/vs/16/release/vc_redist.x86.exe) - [x64](https://aka.ms/vs/16/release/vc_redist.x64.exe)
@@ -28,7 +28,7 @@
 >
 > * Check it with`dumpbin /DEPENDENTS mod_md.so`
 
-- [curl 7.84.0](https://github.com/curl/curl/tree/curl-7_83_1) - `libcurl.dll` 
+- [curl 7.85.0](https://github.com/curl/curl/tree/curl-7_85_0) - `libcurl.dll` 
   - build with schannel & openssl TLS backend _(see [CURL_SSL_BACKEND](https://cran.r-project.org/web/packages/curl/vignettes/windows.html))_
   - :arrow_right: patched for [openssl TLS backend](https://www.apachelounge.com/viewtopic.php?t=8627) using Windows `native_ca_store` - *Thx @**tangent***
 
