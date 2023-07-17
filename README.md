@@ -2,10 +2,10 @@
 - https://github.com/icing/mod_md
 
 ----
-### Version [2.4.22](https://github.com/icing/mod_md/tree/v2.4.22) 
-> 2023-07-12 - commit
+### Version [2.4.23](https://github.com/icing/mod_md/tree/v2.4.23) 
+> 2023-07-14 - commit
 >
-> 2023-07-13 - build
+> 2023-07-17 - build
 
 - **VS17** toolset: 14.37.32705
 - **VS16** toolset: 14.29.30133
