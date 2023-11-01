@@ -1,20 +1,20 @@
-2023-09-20_08-14-57 ####### BEGIN TOOL 'bininfo' vs17 x64 avx ###########################
+2023-11-01_09-04-50 ####### BEGIN TOOL 'bininfo' vs17 x64 avx ###########################
 ************************************
 ext:      [exe,dll,so]
 checkavx: OFF
 recurse:  ON
 >>>>>> D:/github/NONO_mod_md <<<<<<
 filename                                  date              x   link  cl     pver      pdb ©   product                               description
-/vc15/x64/mod_md.so                       20/09/2023 08:05  64  ltcg  14.16  2.4.24    OK  OK  httpd:mod_md                          arch:x64 vcver:14.16[vc15] commit:1e105f8 tag:v2.4.24 date:2023-08-16 httpd:2.4.57
-/vc15/x64-avx/mod_md.so                   20/09/2023 08:05  64  ltcg  14.16  2.4.24    OK  OK  httpd:mod_md                          arch:x64-avx vcver:14.16[vc15] commit:1e105f8 tag:v2.4.24 date:2023-08-16 httpd:2.4.57
-/vc15/x86/mod_md.so                       20/09/2023 08:05  32  ltcg  14.16  2.4.24    OK  OK  httpd:mod_md                          arch:x86 vcver:14.16[vc15] commit:1e105f8 tag:v2.4.24 date:2023-08-16 httpd:2.4.57
-/vc15/x86-avx/mod_md.so                   20/09/2023 08:05  32  ltcg  14.16  2.4.24    OK  OK  httpd:mod_md                          arch:x86-avx vcver:14.16[vc15] commit:1e105f8 tag:v2.4.24 date:2023-08-16 httpd:2.4.57
-/vs16/x64/mod_md.so                       20/09/2023 08:05  64  ltcg  14.29  2.4.24    OK  OK  httpd:mod_md                          arch:x64 vcver:14.29[vs16] commit:1e105f8 tag:v2.4.24 date:2023-08-16 httpd:2.4.57
-/vs16/x64-avx/mod_md.so                   20/09/2023 08:05  64  ltcg  14.29  2.4.24    OK  OK  httpd:mod_md                          arch:x64-avx vcver:14.29[vs16] commit:1e105f8 tag:v2.4.24 date:2023-08-16 httpd:2.4.57
-/vs16/x86/mod_md.so                       20/09/2023 08:05  32  ltcg  14.29  2.4.24    OK  OK  httpd:mod_md                          arch:x86 vcver:14.29[vs16] commit:1e105f8 tag:v2.4.24 date:2023-08-16 httpd:2.4.57
-/vs16/x86-avx/mod_md.so                   20/09/2023 08:05  32  ltcg  14.29  2.4.24    OK  OK  httpd:mod_md                          arch:x86-avx vcver:14.29[vs16] commit:1e105f8 tag:v2.4.24 date:2023-08-16 httpd:2.4.57
-/vs17/x64/mod_md.so                       20/09/2023 08:04  64  ltcg  14.38  2.4.24    OK  OK  httpd:mod_md                          arch:x64 vcver:14.38[vs17] commit:1e105f8 tag:v2.4.24 date:2023-08-16 httpd:2.4.57
-/vs17/x64-avx/mod_md.so                   20/09/2023 07:58  64  ltcg  14.38  2.4.24    OK  OK  httpd:mod_md                          arch:x64-avx vcver:14.38[vs17] commit:1e105f8 tag:v2.4.24 date:2023-08-16 httpd:2.4.57
-/vs17/x86/mod_md.so                       20/09/2023 08:05  32  ltcg  14.38  2.4.24    OK  OK  httpd:mod_md                          arch:x86 vcver:14.38[vs17] commit:1e105f8 tag:v2.4.24 date:2023-08-16 httpd:2.4.57
-/vs17/x86-avx/mod_md.so                   20/09/2023 08:04  32  ltcg  14.38  2.4.24    OK  OK  httpd:mod_md                          arch:x86-avx vcver:14.38[vs17] commit:1e105f8 tag:v2.4.24 date:2023-08-16 httpd:2.4.57
-2023-09-20_08-14-58 #######  END  TOOL 'bininfo' vs17 x64 avx ###########################
+/vc15/x64/mod_md.so                       01/11/2023 08:13  64  ltcg  14.16  2.4.25    OK  OK  httpd:mod_md                          arch:x64 vcver:14.16[vc15] commit:188c205 tag:v2.4.25 date:2023-10-31 httpd:2.4.58
+/vc15/x64-avx/mod_md.so                   01/11/2023 08:13  64  ltcg  14.16  2.4.25    OK  OK  httpd:mod_md                          arch:x64-avx vcver:14.16[vc15] commit:188c205 tag:v2.4.25 date:2023-10-31 httpd:2.4.58
+/vc15/x86/mod_md.so                       01/11/2023 08:13  32  ltcg  14.16  2.4.25    OK  OK  httpd:mod_md                          arch:x86 vcver:14.16[vc15] commit:188c205 tag:v2.4.25 date:2023-10-31 httpd:2.4.58
+/vc15/x86-avx/mod_md.so                   01/11/2023 08:13  32  ltcg  14.16  2.4.25    OK  OK  httpd:mod_md                          arch:x86-avx vcver:14.16[vc15] commit:188c205 tag:v2.4.25 date:2023-10-31 httpd:2.4.58
+/vs16/x64/mod_md.so                       01/11/2023 08:13  64  ltcg  14.29  2.4.25    OK  OK  httpd:mod_md                          arch:x64 vcver:14.29[vs16] commit:188c205 tag:v2.4.25 date:2023-10-31 httpd:2.4.58
+/vs16/x64-avx/mod_md.so                   01/11/2023 08:13  64  ltcg  14.29  2.4.25    OK  OK  httpd:mod_md                          arch:x64-avx vcver:14.29[vs16] commit:188c205 tag:v2.4.25 date:2023-10-31 httpd:2.4.58
+/vs16/x86/mod_md.so                       01/11/2023 08:13  32  ltcg  14.29  2.4.25    OK  OK  httpd:mod_md                          arch:x86 vcver:14.29[vs16] commit:188c205 tag:v2.4.25 date:2023-10-31 httpd:2.4.58
+/vs16/x86-avx/mod_md.so                   01/11/2023 08:13  32  ltcg  14.29  2.4.25    OK  OK  httpd:mod_md                          arch:x86-avx vcver:14.29[vs16] commit:188c205 tag:v2.4.25 date:2023-10-31 httpd:2.4.58
+/vs17/x64/mod_md.so                       01/11/2023 08:06  64  ltcg  14.38  2.4.25    OK  OK  httpd:mod_md                          arch:x64 vcver:14.38[vs17] commit:188c205 tag:v2.4.25 date:2023-10-31 httpd:2.4.58
+/vs17/x64-avx/mod_md.so                   01/11/2023 08:06  64  ltcg  14.38  2.4.25    OK  OK  httpd:mod_md                          arch:x64-avx vcver:14.38[vs17] commit:188c205 tag:v2.4.25 date:2023-10-31 httpd:2.4.58
+/vs17/x86/mod_md.so                       01/11/2023 08:13  32  ltcg  14.38  2.4.25    OK  OK  httpd:mod_md                          arch:x86 vcver:14.38[vs17] commit:188c205 tag:v2.4.25 date:2023-10-31 httpd:2.4.58
+/vs17/x86-avx/mod_md.so                   01/11/2023 08:13  32  ltcg  14.38  2.4.25    OK  OK  httpd:mod_md                          arch:x86-avx vcver:14.38[vs17] commit:188c205 tag:v2.4.25 date:2023-10-31 httpd:2.4.58
+2023-11-01_09-04-52 #######  END  TOOL 'bininfo' vs17 x64 avx ###########################
