@@ -2,12 +2,12 @@
 - https://github.com/icing/mod_md
 
 ----
-### Version [2.4.25](https://github.com/icing/mod_md/tree/v2.4.25) 
-> 2023-10-31 - commit
+### Version [2.4.26](https://github.com/icing/mod_md/tree/v2.4.26) 
+> 2024-01-03 - commit
 >
-> 2023-11-01 - build
+> 2024-01-04 - build
 
-- **VS17** toolset: 14.38.33129
+- **VS17** toolset: 14.39.33321
 - **VS16** toolset: 14.29.30133
 - **VC15** toolset: 14.16.27023
 - MSVC redist:  [x86](https://aka.ms/vs/16/release/vc_redist.x86.exe) - [x64](https://aka.ms/vs/16/release/vc_redist.x64.exe)
@@ -28,11 +28,11 @@
 >
 > * Check it with `dumpbin /DEPENDENTS mod_md.so`
 
-- [curl 8.4.0](https://github.com/curl/curl/tree/curl-8_4_0) - `libcurl.dll` 
+- [curl 8.5.0](https://github.com/curl/curl/tree/curl-8_5_0) - `libcurl.dll` 
   - **MultiSSL** build with OpenSSL & Schannel _(see [CURL_SSL_BACKEND](https://cran.r-project.org/web/packages/curl/vignettes/windows.html))_
   - :arrow_right: patched for [OpenSSL backend](https://www.apachelounge.com/viewtopic.php?t=8627) using Windows `native_ca_store` - *Thx @**tangent***
 
-- :warning:[openssl 3.1.4](https://github.com/openssl/openssl/tree/openssl-3.1.4) - `libcrypto-3-x64.dll` || `libcrypto-3.dll` 
+- [openssl 3.1.4](https://github.com/openssl/openssl/tree/openssl-3.1.4) - `libcrypto-3-x64.dll` || `libcrypto-3.dll` 
 - [apr 1.8.0-dev](https://github.com/apache/apr) - `libapr-1.dll`
 - [apr-util 1.7.0-dev](https://github.com/apache/apr-util) - `libaprutil-1.dll`
 - [jansson 2.14](https://github.com/akheron/jansson/tree/v2.14) - `jansson.dll`
